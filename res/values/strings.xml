@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartMattress</string>
+    <string name="titleString">Welcome to Smart Mattress!</string>
+    <string name="action_settings">Settings</string>
+    <color name="bg">#00aabb</color>
+    <string name="help">Help</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="sensor">Adjust Sensor</string>
+    <string name="quit">Quit</string>
+    <dimen name = "textSize">10sp</dimen>
+     <dimen name = "paddingBottom">10dp</dimen>
+     <string name="backButton">Back</string>
+     <dimen name = "helpPadding">30dp</dimen>
+     <string name="activate">Activate</string>
+     <string name="helpText1">The smart mattress system provides notifications on your mobile phone when your infant makes too many exaggerated movements or actually attempts to vacate their crib.
+ </string>
+<string name="helpText2">Activate:
+
+Click the [Activate] button to begin monitoring your infant’s activity.  Be sure to calibrate the Smart Mattress system prior to the first activation.
+</string>
+
+<string name = "helpText3">
+
+Calibration:
+Place your infant on the mattress and click the [Calibrate] button to set the sensor baseline.  The calibration will require updating as your infant grows.
+</string>
+<string name = "helpText4">
+Sensitivity:
+
+Adjust the sensitivity of the system to your infant’s activity levels. Decrease the sensitivity when movement notifications are too frequent.  Active infants require a low sensitivity setting and those that are less active require a high sensitivity setting.</string>
+<string name="backButtonSlider">back</string>
+<string name="seekBarText">Adjust Slider to set sensitivity</string>
+
+
+</resources>

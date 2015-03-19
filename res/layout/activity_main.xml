@@ -1,0 +1,96 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="com.example.com.sm.smartmattress.MainActivity" >
+   
+    <TableRow
+    		android:id="@+id/tableRow1"
+          	android:paddingLeft="60dp"
+          	android:paddingRight="60dp"
+          	android:paddingTop="@dimen/paddingBottom"
+	        android:paddingBottom="@dimen/paddingBottom">
+    <TextView
+        android:id="@+id/titleString"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="30dp"
+        android:textSize="@dimen/textSize"
+        android:text="@string/titleString">
+    </TextView>
+    </TableRow>
+    
+     <TableRow
+          	android:id="@+id/tableRow2"
+          	android:paddingLeft="60dp"
+          	android:paddingRight="60dp"
+	        android:paddingBottom="@dimen/paddingBottom">
+    	<Button
+    	    android:id="@+id/activateButton"
+    	    android:layout_width="180dp"
+    	    android:layout_height="50dp"
+    	    android:text="@string/activate"
+    	    android:textSize="@dimen/textSize" >
+    	</Button>
+        </TableRow>
+    
+    
+     <TableRow
+          	android:id="@+id/tableRow3"
+          	android:paddingLeft="60dp"
+          	android:paddingRight="60dp"
+	        android:paddingBottom="@dimen/paddingBottom">
+    	<Button
+    	    android:id="@+id/calibrateButton"
+    	    android:layout_width="180dp"
+    	    android:layout_height="50dp"
+    	    android:text="@string/calibrate"
+    	    android:textSize="@dimen/textSize" >
+    	</Button>
+    	</TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+	        android:paddingBottom="@dimen/paddingBottom">
+	    <Button
+	        android:id="@+id/sensorAdjustButton"
+	        android:layout_width="180dp"
+	        android:layout_height="50dp"
+	        android:textSize="@dimen/textSize"
+	        android:text="@string/sensor" />
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/tablerow5"
+	        android:paddingLeft="60dp"
+	        android:paddingRight="60dp"
+	        android:paddingBottom="@dimen/paddingBottom"
+	        >
+	        <Button
+	            android:id="@+id/helpButton"
+	            android:textSize="@dimen/textSize"
+	            android:layout_width="180dp"
+	            android:layout_height="50dp"
+	            android:text="@string/help"
+	            android:singleLine="True" />
+        </TableRow>
+        
+	    
+	       <TableRow
+	        android:id="@+id/tablerow6"
+	        android:paddingLeft="60dp"
+	        android:paddingRight="60dp"
+	        android:paddingBottom="@dimen/paddingBottom"
+	        >
+	        <Button
+	            android:id="@+id/quitButton"
+	            android:textSize="@dimen/textSize"
+	            android:layout_width="180dp"
+	            android:layout_height="50dp"
+	            android:text="@string/quit"
+	            android:singleLine="True" />
+        </TableRow>
+
+</TableLayout>
